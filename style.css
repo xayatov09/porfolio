@@ -18,7 +18,7 @@ body {
 .bg-lines {
   position: fixed;
   inset: 0;
-  background: #000;
+  background: #035a85;
   overflow: hidden;
   z-index: 0;
 }
@@ -30,7 +30,7 @@ body {
   font-size: 20px;
   opacity: 0.9;
   animation: fall linear infinite;
-  text-shadow: 0 0 15px #00eaff;
+  text-shadow: 0 0 15px #06c12ea3;
 }
 
 @keyframes fall {
@@ -65,7 +65,7 @@ body {
   font-weight: 700;
   font-family: 'Orbitron', sans-serif;
   font-size: 2rem;
-  text-shadow: 0 0 15px #00eaff;
+  text-shadow: 0 0 15px #00ff04;
   cursor: pointer;
 }
 
