@@ -22,7 +22,6 @@
       <a href="#services" class="lang-text" data-uz="Xizmatlar" data-ru="Услуги" data-en="Services">Xizmatlar</a>
       <a href="#portfolio" class="lang-text" data-uz="Portfolio" data-ru="Портфолио" data-en="Portfolio">Portfolio</a>
       <a href="#contact" class="lang-text" data-uz="Aloqa" data-ru="Контакты" data-en="Contact">Aloqa</a>
-      <!-- Yangi Yil Aksiyasi linki olib tashlandi -->
     </nav>
     <div class="menu-toggle">☰</div>
     <div class="lang-toggle">
@@ -34,7 +33,8 @@
 
   <!-- Hero Section -->
   <section class="hero">
-    <h2 class="neon-title lang-text" data-uz="Salom, men Xayatov Daler" data-ru="Привет, я Хаятов Далер" data-en="Hi, I'm Khayatov Daler">Salom,
+    <h2 class="neon-title lang-text" data-uz="Salom, men Xayatov Daler" data-ru="Привет, я Хаятов Далер"
+      data-en="Hi, I'm Khayatov Daler">Salom,
       men Xayatov Daler</h2>
     <p class="subtitle lang-text" data-uz="Zamonaviy, tez va moslashuvchan veb ilovalar yaratishga qiziqaman."
       data-ru="Увлекаюсь созданием современных, быстрых и адаптивных веб-приложений."
@@ -66,7 +66,7 @@
         </p>
       </div>
       <div class="about-image">
-        <img src="jfbube cnnnef" alt="Your Name" class="profile-image">
+        <img src="./ot.jpg" alt="Your Name" class="profile-image">
       </div>
     </div>
   </section>
@@ -129,33 +129,33 @@
           </div>
         </div>
         <div class="skill"></div>
-          <div class="skill-info">
-            <span>Git & GitHub</span>
-            <span>85%</span>
-          </div>
-          <div class="skill-bar">
-            <div class="skill-level" style="width: 85%"></div>
-          </div>
+        <div class="skill-info">
+          <span>Git & GitHub</span>
+          <span>85%</span>
         </div>
-        <div class="skill">
-          <div class="skill-info">
-            <span>Responsive Design</span>
-            <span>92%</span>
-          </div>
-          <div class="skill-bar">
-            <div class="skill-level" style="width: 92%"></div>
-          </div>
-        </div>
-        <div class="skill">
-          <div class="skill-info">
-            <span>Figma</span>
-            <span>92%</span>
-          </div>
-          <div class="skill-bar">
-            <div class="skill-level" style="width: 92%"></div>
-          </div>
+        <div class="skill-bar">
+          <div class="skill-level" style="width: 85%"></div>
         </div>
       </div>
+      <div class="skill">
+        <div class="skill-info">
+          <span>Responsive Design</span>
+          <span>92%</span>
+        </div>
+        <div class="skill-bar">
+          <div class="skill-level" style="width: 92%"></div>
+        </div>
+      </div>
+      <div class="skill">
+        <div class="skill-info">
+          <span>Figma</span>
+          <span>92%</span>
+        </div>
+        <div class="skill-bar">
+          <div class="skill-level" style="width: 92%"></div>
+        </div>
+      </div>
+    </div>
     </div>
   </section>
 
@@ -299,10 +299,15 @@
 
       <div class="contact-form">
         <form id="contactForm">
-          <input type="text" id="name" class="lang-placeholder" placeholder="Ismingiz" required>
+          <input type="text" id="name" class="lang-placeholder" data-uz="Ismingiz" data-ru="Ваше имя"
+            data-en="Your name" placeholder="Ismingiz" required>
           <input type="text" id="telegram" class="lang-placeholder"
-            placeholder="Telegram foydalanuvchi nomingiz (@username)" required>
-          <textarea id="message" class="lang-placeholder" placeholder="Xabaringizni yozing..." required></textarea>
+            data-uz="Telegram foydalanuvchi nomingiz (@username)" data-ru="Ваш Telegram (@username)"
+            data-en="Your Telegram username (@username)" placeholder="Telegram foydalanuvchi nomingiz (@username)"
+            required>
+          <textarea id="message" class="lang-placeholder" data-uz="Xabaringizni yozing..."
+            data-ru="Напишите ваше сообщение..." data-en="Write your message..." placeholder="Xabaringizni yozing..."
+            required></textarea>
           <button type="submit" class="btn-neon lang-text" data-uz="Xabar yuborish" data-ru="Отправить сообщение"
             data-en="Send Message">Xabar yuborish</button>
         </form>
